@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/item_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_me_user"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@mipmap/user_imforimgbg" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/user_imforimgtop" />
+
+        <TextView
+            android:id="@+id/me_num_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/logo"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <ImageButton
+            android:id="@+id/me_info_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/me_operator"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:background="@mipmap/rightarrow" />
+
+        <TextView
+            android:id="@+id/me_operator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/me_num_tv"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:singleLine="true"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/sc_me"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/tonelist_caller_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_item_bkg"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <TextView
+                    android:id="@+id/tonelist_header_caller_tv"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/white"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/caller_txt"
+                    android:textColor="@color/mycenter_text"
+                    android:textSize="@dimen/font_size_dialog_title" />
+
+                <LinearLayout style="@style/setlin_fill_me" />
+
+                <include layout="@layout/tone_item_layout" />
+
+                <LinearLayout style="@style/setlin_fill_me" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tonelist_called_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_item_bkg"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tonelist_header_called_tv"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/white"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/called_txt_1"
+                    android:textColor="@color/mycenter_text"
+                    android:textSize="@dimen/font_size_dialog_title" />
+
+                <LinearLayout style="@style/setlin_fill_me" />
+
+                <include layout="@layout/tone_item_layout" />
+
+                <LinearLayout style="@style/setlin_fill_me" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mylibrary_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/bg_white_gray"
+                android:drawableRight="@mipmap/rightarrow"
+                android:gravity="center_vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:text="@string/tone_library_txt"
+                android:textColor="@color/mycenter_text"
+                android:textSize="@dimen/font_size_dialog_title" />
+
+            <LinearLayout style="@style/setlin_fill_me" />
+
+            <TextView
+                android:id="@+id/ringgroup_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/bg_white_gray"
+                android:drawableRight="@mipmap/rightarrow"
+                android:gravity="center_vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:text="@string/tone_ringgroup_txt"
+                android:textColor="@color/mycenter_text"
+                android:textSize="@dimen/font_size_dialog_title" />
+
+            <LinearLayout style="@style/setlin_fill_me" />
+
+            <TextView
+                android:id="@+id/number_group"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/bg_white_gray"
+                android:drawableRight="@mipmap/rightarrow"
+                android:gravity="center_vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:text="@string/tone_number_group_txt"
+                android:textColor="@color/mycenter_text"
+                android:textSize="@dimen/font_size_dialog_title" />
+
+            <LinearLayout style="@style/setlin_fill_me" />
+
+            <TextView
+                android:id="@+id/operating_records_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/bg_white_gray"
+                android:drawableRight="@mipmap/rightarrow"
+                android:gravity="center_vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:text="@string/tone_operating_records_txt"
+                android:textColor="@color/mycenter_text"
+                android:textSize="@dimen/font_size_dialog_title" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/me_no_ring_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:src="@mipmap/user_nohaveicon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/list_enmpty1"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list_nowifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@mipmap/line" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@mipmap/failedicon" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/nowifi"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

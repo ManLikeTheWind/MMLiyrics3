@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/item_bg"
+    android:orientation="vertical"
+    android:weightSum="9" >
+
+    <include layout="@layout/header_logo_layout" />
+
+    <include layout="@layout/title_layout" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_gray" >
+
+        <TextView
+            android:id="@+id/tv_reverse_rbt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:text="@string/reverse_rbt"
+            android:textColor="@color/mycenter_text"
+            android:textSize="@dimen/font_size_dialog_title" />
+
+        <CheckBox
+            android:id="@+id/check_rbt"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            
+            android:button="@null"
+            android:background="@mipmap/choose_icon1"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="10dp" />
+    </RelativeLayout>
+ <LinearLayout style="@style/setlin_fill_me" />
+ <TextView
+        android:id="@+id/tv_setrandomdefault"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_gray"
+        android:drawableRight="@mipmap/rightarrow"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:text="@string/random_default_setting"
+        android:textColor="@color/mycenter_text"
+        android:textSize="@dimen/font_size_dialog_title" />
+  <LinearLayout style="@style/setlin_fill_me" />
+    <TextView
+        android:id="@+id/tv_passwordchange"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_gray"
+        android:drawableRight="@mipmap/rightarrow"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:text="@string/password_change"
+        android:textColor="@color/mycenter_text"
+        android:textSize="@dimen/font_size_dialog_title" />
+
+    <LinearLayout style="@style/setlin_fill_me" />
+
+    <TextView
+        android:id="@+id/tv_setusernikename"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_gray"
+        android:drawableRight="@mipmap/rightarrow"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:text="@string/set_usernikename"
+        android:textColor="@color/mycenter_text"
+        android:textSize="@dimen/font_size_dialog_title" />
+
+    <LinearLayout style="@style/setlin_fill_me" />
+
+    <TextView
+        android:id="@+id/tv_logout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white_gray"
+        android:drawableRight="@mipmap/rightarrow"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:text="@string/log_out"
+        android:textColor="@color/mycenter_text"
+        android:textSize="@dimen/font_size_dialog_title" />
+
+    <LinearLayout style="@style/setlin_fill_me" />
+
+    <RelativeLayout
+        android:id="@+id/rl_cller"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_cller"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="@string/activate_caller_CRBT"
+            android:textColor="@color/mycenter_text"
+            android:textSize="@dimen/font_size_text" />
+
+        <com.zte.myring.slipbutton.Slipbutton
+            android:id="@+id/order_tv1"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_clled"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_clled"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="@string/activate_called_CRBT"
+            android:textColor="@color/mycenter_text"
+            android:textSize="@dimen/font_size_text" />
+
+        <com.zte.myring.slipbutton.Slipbutton
+            android:id="@+id/order_tv2"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_unsubscribe_caller"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_unsubscribe_caller"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:drawableRight="@mipmap/more_rightarrow"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/unsubscribe_cakker_CRBT"
+            android:textColor="@color/mycenter_text"
+            android:textSize="@dimen/font_size_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_unsubscribe_called"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_unsubscribe_called"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:drawableRight="@mipmap/more_rightarrow"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/unsubscribe_cakked_CRBT"
+            android:textColor="@color/mycenter_text"
+            android:textSize="@dimen/font_size_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_logoutss"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:drawableRight="@mipmap/more_rightarrow"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/log_out"
+            android:textColor="@color/mycenter_text"
+            android:textSize="@dimen/font_size_text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_logoff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:drawableRight="@mipmap/more_rightarrow"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/log_off"
+            android:textColor="@color/mycenter_text"
+            android:textSize="@dimen/font_size_text" />
+    </LinearLayout>
+
+</LinearLayout>

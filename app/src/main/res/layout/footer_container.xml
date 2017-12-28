@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/foot_height"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:weightSum="4" >
+
+    <RadioGroup
+        android:id="@+id/raido_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/main_tab_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/home_selector"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center_horizontal" />
+
+        <RadioButton
+            android:id="@+id/main_tab_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/list_selector"
+            android:button="@null"
+            android:gravity="center_horizontal" />
+
+        <RadioButton
+            android:id="@+id/main_tab_me"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/me_selector"
+            android:button="@null"
+            android:gravity="center_horizontal" />
+
+        <RadioButton
+            android:id="@+id/main_tab_more"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/more_selector"
+            android:button="@null" />
+    </RadioGroup>
+
+</LinearLayout>

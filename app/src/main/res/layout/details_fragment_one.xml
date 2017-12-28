@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <!-- android:background="@color/details_bottom_bkg" -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/moneyicon" />
+
+        <!-- 这个是价钱：price -->
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+        <TextView
+            android:id="@+id/details_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/details_tv_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@color/tv_tail"
+            android:textSize="20sp" />
+</LinearLayout>
+			<!--  这个是下面的Button -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/details_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/feedback_submit_xml"
+                android:gravity="center"
+                android:text="@string/details_download"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+    <!--         <LinearLayout
+                android:id="@+id/ll_caller_default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/details_download"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:gravity="center" >
+
+                <CheckBox
+                    android:id="@+id/caller_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/checkbox_selector"
+                    android:text="@string/caller_default"
+                    android:textColor="@color/details_bottom_set" />
+
+                <com.zte.myring.view.MarqueeText
+                    android:id="@+id/text_caller_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:text="@string/caller_default"
+                    android:textColor="@color/details_bottom_set"
+                    android:visibility="gone" />
+            </LinearLayout> -->
+
+           <!--  <LinearLayout
+                android:id="@+id/ll_called_default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ll_caller_default"
+                android:layout_below="@id/ll_caller_default"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:gravity="center" >
+
+                <CheckBox
+                    android:id="@+id/called_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/checkbox_selector"
+                    android:text="@string/called_default"
+                    android:textColor="@color/details_bottom_set" />
+
+                <com.zte.myring.view.MarqueeText
+                    android:id="@+id/text_called_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:text="@string/called_default"
+                    android:textColor="@color/details_bottom_set"
+                    android:visibility="gone" />
+            </LinearLayout> -->
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

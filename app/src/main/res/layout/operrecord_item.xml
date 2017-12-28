@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="15dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/tonename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="@color/details_title"
+        android:textSize="@dimen/list_item_txt_size" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:text="@string/recorditem_name"
+            android:textColor="@color/me_songer_txt"
+            android:textSize="@dimen/list_item_txt_small_size" />
+
+        <TextView
+            android:id="@+id/phonenumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:singleLine="true"
+            android:textColor="@color/me_songer_txt"
+            android:textSize="@dimen/list_item_txt_small_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:text="@string/recorditem_channel"
+            android:textColor="@color/me_songer_txt"
+            android:textSize="@dimen/list_item_txt_small_size" />
+
+        <TextView
+            android:id="@+id/cannel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:singleLine="true"
+            android:textColor="@color/me_songer_txt"
+            android:textSize="@dimen/list_item_txt_small_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:text="@string/recorditem_date"
+            android:textColor="@color/me_songer_txt"
+            android:textSize="@dimen/list_item_txt_small_size" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:singleLine="true"
+            android:textColor="@color/me_songer_txt"
+            android:textSize="@dimen/list_item_txt_small_size" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/item_bg"
+    android:orientation="vertical"
+    android:weightSum="9" >
+
+    <include layout="@layout/header_logo_layout" />
+
+    <include layout="@layout/title_layout" />
+
+    <EditText
+        android:id="@+id/set_user_nikename"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/feedback_edit_bg"
+        android:hint="@string/enter_ringgroup"
+        android:paddingBottom="13dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="13dp"
+        android:singleLine="true"
+        android:textColor="@color/text_color_black"
+        android:textColorHint="@color/input_text"
+        android:textSize="15sp" />
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@mipmap/background">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        
+        <LinearLayout 
+            android:id="@+id/zxing_container"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+             android:layout_gravity="center"
+             android:gravity="center"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="6dp">
+            
+         <Button 
+            android:id="@+id/zxing"
+            android:layout_width="28dp"
+            android:layout_height="25dp"
+            android:background="@drawable/zxing_selector"/> 
+            
+         <com.zte.myring.view.MarqueeText 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="@color/zxing_textcolor"
+             android:textSize="10sp"
+             android:singleLine="true"
+			android:ellipsize="marquee"
+			android:marqueeRepeatLimit="marquee_forever"
+			android:scrollHorizontally="true"
+             android:text="@string/flicking"/>
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/home_toppper_background_color"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            
+            <LinearLayout 
+                android:id="@+id/search_container"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            
+            <TextView 
+                android:id="@+id/input_search"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textSize="@dimen/main_txt_size"
+                android:background="@color/home_toppper_background_color"
+                android:textColor="@color/home_toppper_input_text_color"
+                android:text="@string/search_hint"/>
+            
+            <Button 
+                android:id="@+id/search_button"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/search_selector"/>
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginRight="6dp"
+            android:background="@color/home_toppper_input_text_color"/>    
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    <com.zte.myring.views.refresh.PullToRefreshListView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:divider="@android:color/transparent"
+        android:id="@+id/pullrefreash"
+        />
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_item_bkg"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="15dp"
+    android:paddingTop="10dp" >
+
+    <FrameLayout
+        android:id="@+id/tone_item_framelayout"
+        android:layout_width="45dp"
+        android:layout_height="45dp" >
+
+        <com.zte.myring.view.RoundedImageView
+            android:id="@+id/imagebg"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/musicbg"
+            app:riv_corner_radius="100dip"
+            app:riv_oval="false" />
+
+        <ImageView
+            android:id="@+id/music_play_stop_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/music_play" />
+
+        <ProgressBar
+            android:id="@+id/music_loading"
+            style="@style/loadingstyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tone_item_songname_tv"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_toRightOf="@+id/tone_item_framelayout"
+        android:singleLine="true"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/list_item_txt_size" />
+
+    <TextView
+        android:id="@+id/tone_item_songername_tv"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tone_item_songname_tv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_toRightOf="@+id/tone_item_framelayout"
+        android:singleLine="true"
+        android:textColor="@color/me_songer_txt"
+        android:textSize="@dimen/list_item_txt_small_size" />
+
+    <ImageView
+        android:id="@+id/checked"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:background="@mipmap/login_choice"
+        android:visibility="gone" />
+
+</RelativeLayout>

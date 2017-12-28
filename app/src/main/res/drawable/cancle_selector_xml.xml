@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/dialog_sure_bg_press" android:state_pressed="true"/> <!-- @drawable/back_pressed -->
+    <!-- pressed -->
+
+    <item android:drawable="@drawable/dialog_sure_bg_press" android:state_focused="true"/> <!-- @drawable/back_pressed -->
+    <!-- focused -->
+
+    <item android:drawable="@drawable/dialog_cancel_bg"/> <!-- default -->
+
+</selector>

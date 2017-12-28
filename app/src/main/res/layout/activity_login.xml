@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_pic"
+    android:fitsSystemWindows="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header_logo_layout" />
+
+    <include layout="@layout/title_layout" />
+
+    <RelativeLayout
+        android:id="@+id/login_rl"
+        android:layout_width="@dimen/login_head_one"
+        android:layout_height="@dimen/login_head_one"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/logion_corner" >
+
+        <ImageView
+            android:layout_width="@dimen/login_head_two"
+            android:layout_height="@dimen/login_head_two"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/logion_corner" />
+
+        <com.zte.myring.view.RoundedImageView
+            android:id="@+id/imagehead"
+            android:layout_width="@dimen/login_head_three"
+            android:layout_height="@dimen/login_head_three"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/user_imforimgtop"
+            app:riv_border_color="@color/white"
+            app:riv_border_width="2dip"
+            app:riv_corner_radius="100dip"
+            app:riv_oval="false" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/login_name_et"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_white_cornor"
+        android:hint="@string/hint_login_name"
+        android:inputType="number"
+        android:maxLength="20"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:singleLine="true"
+        android:textColor="@color/text_color_black"
+        android:textColorHint="@color/input_text"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/login_pwd_et"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_white_cornor"
+        android:hint="@string/hint_login_pwd"
+        android:inputType="numberPassword"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:singleLine="true"
+        android:textColor="@color/text_color_black"
+        android:textColorHint="@color/input_text"
+        android:textSize="18sp" />
+
+  
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal" >
+
+        <CheckBox
+            android:id="@+id/login_remember_cb"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:button="@drawable/checkbox_seletor"
+            android:maxHeight="8dp"
+            android:maxWidth="8dp" />
+
+        <TextView
+            android:id="@+id/remember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-3dp"
+            android:layout_toRightOf="@+id/login_remember_cb"
+            android:gravity="center_horizontal"
+            android:text="@string/login_remember"
+            android:textColor="@color/details_title"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/login_auto_login_cb"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/remember"
+            android:button="@drawable/checkbox_seletor" />
+
+        <TextView
+            android:id="@+id/quto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-3dp"
+            android:layout_toRightOf="@+id/login_auto_login_cb"
+            android:gravity="bottom"
+            android:singleLine="true"
+            android:text="@string/login_auto_login"
+            android:textColor="@color/details_title"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/login_forget_iv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/forget_seletor" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_logion"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/login_txt"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/regist_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_logion"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/regist_bt"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

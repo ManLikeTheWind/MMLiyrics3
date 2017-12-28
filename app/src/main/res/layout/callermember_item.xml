@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_gray"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="15dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/tone_item_songname_tv"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="40dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/details_title"
+        android:textSize="@dimen/list_item_txt_size" />
+
+    <TextView
+        android:id="@+id/tone_item_songername_tv"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tone_item_songname_tv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="40dp"
+        android:drawableLeft="@mipmap/phone_call"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="@color/me_songer_txt"
+        android:textSize="@dimen/list_item_txt_small_size" />
+
+    <CheckBox
+        android:id="@+id/ck_rember"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:button="@drawable/list_view_checkbtn"
+        android:visibility="gone" />
+
+</RelativeLayout>

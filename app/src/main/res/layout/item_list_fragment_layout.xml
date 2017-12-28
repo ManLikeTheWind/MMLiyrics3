@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/all_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_white_gray"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp" >
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        >
+        <com.zte.myring.view.RoundedImageView
+            android:id="@+id/logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/musicbg"
+            app:riv_border_color="@color/white"
+            app:riv_border_width="2dip"
+            app:riv_corner_radius="100dip"
+            app:riv_oval="false" />
+        <ImageView
+            android:id="@+id/music_play_stop_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@mipmap/music_play" />
+
+        <ProgressBar
+            android:id="@+id/music_loading"
+            style="@style/loadingstyle"
+             android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/hot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-15dp"
+        android:layout_toRightOf="@id/framelayout"
+        android:background="@mipmap/hoticon"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toLeftOf="@+id/item_list_next"
+        android:layout_toRightOf="@id/hot" >
+
+        <TextView
+            android:id="@+id/song"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:singleLine="true"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/singer"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/song"
+            android:layout_marginTop="3dp"
+            android:lines="1"
+            android:singleLine="true"
+            android:textColor="@color/me_songer_txt" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/item_list_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:background="@mipmap/rightarrow" />
+
+</RelativeLayout>

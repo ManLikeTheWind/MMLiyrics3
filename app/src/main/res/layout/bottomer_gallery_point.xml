@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <FrameLayout
+        android:id="@+id/gallery_topper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         >
+
+        <com.zte.myring.views.gallery.GalleryEx
+            android:id="@+id/gallery_gallerys"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:persistentDrawingCache="animation" />
+
+        <LinearLayout
+            android:id="@+id/guide_activity_newvod_point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:gravity="center"
+            android:orientation="horizontal" />
+        <ImageView 
+            android:id="@+id/iv_close_window"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:background="@mipmap/close"/>
+    </FrameLayout>
+
+</LinearLayout>

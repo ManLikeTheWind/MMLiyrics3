@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- 主叫 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 那栏 -->
+
+    <LinearLayout
+        android:id="@+id/tonelist_caller_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_bkg"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tonelist_header_caller_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/caller_txt"
+            android:textColor="@color/mycenter_text"
+            android:textSize="@dimen/font_size_dialog_title" />
+
+        <LinearLayout style="@style/setlin_fill_me" />
+
+        <include layout="@layout/tone_item_layout" />
+
+        <LinearLayout style="@style/setlin_fill_me" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tonelist_caller_group_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_bkg"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/tonelist_header_caller_group_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/caller_txt"
+            android:textColor="@color/mycenter_text"
+            android:textSize="@dimen/font_size_dialog_title" />
+
+        <LinearLayout style="@style/setlin_fill_me" />
+
+        <include layout="@layout/tonegroup_item_layout" />
+
+        <LinearLayout style="@style/setlin_fill_me" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tonelist_caller_random_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_bkg"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tonelist_header_caller_random_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/caller_txt"
+            android:textColor="@color/mycenter_text"
+            android:textSize="@dimen/font_size_dialog_title" />
+
+        <LinearLayout style="@style/setlin_fill_me" />
+
+        <include layout="@layout/tone_random_item_layout" />
+
+        <LinearLayout style="@style/setlin_fill_me" />
+    </LinearLayout>
+
+    <!-- 被叫 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 那栏 -->
+
+    <LinearLayout
+        android:id="@+id/tonelist_called_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_bkg"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tonelist_header_called_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:text="@string/called_txt"
+            android:textColor="@color/mycenter_text"
+            android:textSize="@dimen/font_size_dialog_title" />
+
+        <LinearLayout style="@style/setlin_fill_me" />
+
+        <include layout="@layout/tone_item_layout" />
+
+        <LinearLayout style="@style/setlin_fill_me" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tonelist_called_group_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_bkg"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/tonelist_header_called_group_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/called_txt"
+            android:textColor="@color/mycenter_text"
+            android:textSize="@dimen/font_size_dialog_title" />
+
+        <LinearLayout style="@style/setlin_fill_me" />
+
+        <include layout="@layout/tonegroup_item_layout" />
+
+        <LinearLayout style="@style/setlin_fill_me" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tonelist_called_random_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_bkg"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tonelist_header_called_random_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/called_txt"
+            android:textColor="@color/mycenter_text"
+            android:textSize="@dimen/font_size_dialog_title" />
+
+        <LinearLayout style="@style/setlin_fill_me" />
+
+        <include layout="@layout/tone_random_item_layout" />
+
+        <LinearLayout style="@style/setlin_fill_me" />
+    </LinearLayout>
+
+</LinearLayout>

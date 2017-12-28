@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/item_bg"
+    android:orientation="vertical"
+    android:weightSum="9" >
+
+    <include layout="@layout/header_logo_layout" />
+
+    <include layout="@layout/title_layout" />
+
+    <EditText
+        android:id="@+id/set_user_nikename"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/feedback_edit_bg"
+        android:drawableRight="@mipmap/head_user"
+        android:hint="@string/enter_nikename"
+        android:paddingBottom="13dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="13dp"
+        android:singleLine="true"
+        android:textColor="@color/text_color_black"
+        android:textColorHint="@color/input_text"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textColor="@color/text_color_black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/ibtn_determine"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/feedback_submit_xml"
+        android:scaleType="fitXY"
+        android:text="@string/btn_comfirm"
+        android:textColor="@color/submit"
+        android:textSize="18sp" />
+
+</LinearLayout>

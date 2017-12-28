@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_gray"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+<!--    android:layout_toLeftOf="@+id/rightedit"  -->
+    <TextView
+        android:id="@+id/folder_library"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        
+        android:layout_alignParentLeft="true"
+        android:drawableRight="@mipmap/rightarrownull"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:text="@string/tone_library_txt"
+        android:textColor="@color/mycenter_text"
+        android:textSize="@dimen/font_size_dialog_title" />
+
+    <RelativeLayout
+        android:id="@+id/rightedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp" >
+
+        <ImageView
+            android:id="@+id/showrightarrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="-10dp"
+            android:background="@mipmap/rightarrow" />
+
+        <LinearLayout
+            android:id="@+id/foredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <ImageButton
+                android:id="@+id/btn_delete"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="10dp"
+                android:background="@mipmap/delete" />
+
+            <LinearLayout style="@style/vertical_line" />
+
+            <ImageButton
+                android:id="@+id/btn_edit"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:background="@mipmap/edit" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

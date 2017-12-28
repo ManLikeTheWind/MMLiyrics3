@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ring_group_add_empty">Ring group name can not be null</string>
+    <string name="help_html">help_eg.html</string>
+    <string name="operator">Entel Moblie</string>
+    <!-- 2016.4.13 -->
+    <string name="callergroupname_check">Not null</string>
+    <string name="check_least_one_contact">Please select a contact</string>
+    <!-- 2016.4.13 -->
+    <string name="set_success">Set success!</string>
+    <!-- <string name="set_failed">Setting failed!</string> -->
+    <string name="days">Days</string>
+    <string name="addgroupring">Back tones</string>
+    <string name="takephotofail">Photo failure</string>
+    <string name="default_dialog">Go to My Library and choose a Default Backtone</string>
+    <string name="recorditem_name">Phone number:</string>
+    <string name="recorditem_channel">Channel:</string>
+    <string name="recorditem_date">Date:</string>
+    <string name="recordtitle">Operating records</string>
+    <string name="record1">Order ring</string>
+    <string name="record2">Gift to</string>
+    <string name="record3">Receive from</string>
+    <string name="record4">Delete ring</string>
+    <string name="contacts">Contacts</string>
+    <string name="contacts_notadd">The contact has been used!</string>
+    <string name="callername_notnull">Caller name can\&#039;t be null</string>
+    <string name="callernumber_notnull">Caller number can\&#039;t be null</string>
+    <string name="callernumber_ring_add_name">Add caller number</string>
+    <string name="callernumber_ringgroup_setcallername">Enter the Caller name</string>
+    <string name="callernumber_ringgroup_setcallernumber">Enter the Caller number</string>
+    <string name="callernumber_ringgroup_setringtone">Set ringtone</string>
+    <string name="callernumber_ringgroup_add_callernumber">Add Caller Number</string>
+    <string name="callernumber_ringgroup_add_name">Add caller number group</string>
+    <string name="callernumber_ringgroup_add_hint">Caller number group name</string>
+    <string name="callernumber_ringgroup_txt">Caller number group</string>
+    <string name="callernumber_ringgroup_txt_edit">Edit caller number group</string>
+    <string name="caller_add_ring_grp">Add Caller Number Group</string>
+    <string name="check_least_one">Please select ringtone</string>
+    <string name="check_least_one_new">Please select ringtone</string>
+    <string name="add_ring_tone">Add RingTones</string>
+    <string name="group_detail_delete_all">All</string>
+    <string name="group_detail_delete_none">None</string>
+    <string name="group_detail_delete">Delete</string>
+    <string name="suredelete">Sure to delete?</string>
+    <string name="enter_ringgroup">Enter the ring group</string>
+    <string name="add_ring_grp">Add Ring Group</string>
+    <string name="tone_ringgroup_edit">Edit</string>
+    <string name="tone_ringgroup_noedit">Done</string>
+    <string name="tone_ringgroup_txt">Ring group</string>
+    <string name="tone_ringgroup_txt_edit">Edit ring group</string>
+    <string name="tone_number_group_txt">Caller number group</string>
+    <string name="tone_operating_records_txt">Operating records</string>
+    <string name="sweep">Sweep</string>
+    <string name="my_ring_library">My ring library</string>
+    <string name="app_name">M Ring</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="pull_to_refresh">refresh</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh</string>
+    <string name="pull_to_refresh_release_label">Lose to refresh</string>
+    <string name="pull_to_refresh_refreshing_label">Refreshing&#8230;</string>
+    <string name="pull_to_load_pull_label">Pull to refresh</string>
+    <string name="pull_to_load_release_label">Lose to refresh</string>
+    <string name="pull_to_load_loading_label">Refreshing&#8230;</string>
+
+    <!-- Ranking list -->
+    <string name="top_of_the_moment">Top of the moment</string>
+    <string name="recommendeds">Recommended</string>
+    <string name="top_of_the_week">Top of the week</string>
+    <string name="the_new">The new</string>
+
+    <!-- details activity -->
+    <string name="details_bottom_left_textview">Ringtone downloads</string>
+    <string name="details_bottom_right_textview">Give ringtones</string>
+    <string name="details_num_hint">&#160;Enter the phone number</string>
+    <string name="order_error">You can\&#039;t gift back tone to yourself.</string>
+
+    <!-- add by dingshide  start -->
+    <string name="list">List</string>
+    <string name="recommended">Recommended List</string>
+    <string name="recommended_list">Recommonded list</string>
+    <string name="total">Total List</string>
+    <string name="week">Weekly List</string>
+    <string name="month">Monthly List</string>
+    <string name="caller_default">Set as caller default</string>
+    <string name="called_default">Set as called default</string>
+    <string name="details_download">Ringtone Downloads</string>
+    <string name="tv_phone">Phone Number:</string>
+    <string name="tv_receive_phone">Receive Number:</string>
+    <string name="tv_Charges">Charges:</string>
+    <string name="nowifi">Network error. Please check and retry later!</string>
+    <string name="loading">Loading...</string>
+    <string name="buysuccess">Order successfully!</string>
+    <string name="phonenumber_check">Phone number can\&#039;t be empty</string>
+    <string name="nikename_check">Not null</string>
+    <string name="vercode_check">Vercode can\&#039;t be empty</string>
+    <string name="register_atleast">Choose one service to subscribe.</string>
+    <string name="tip_order">If you have subscribed CRBT service, kindly press \&#039;Login\&#039; button.</string>
+    <string name="order_already">Repeat order</string>
+    <!-- add by dingshide  end -->
+
+
+    <!-- crash handler { -->
+    <string name="version_info">当前应用程序版本：%s </string>
+    <string name="mobile_info">手机设备信息：\n %s </string>
+    <string name="error_info">崩溃日志：\n %s</string>
+    <string name="unknow_version">版本号未知</string>
+    <string name="app_exception_notification">APP error. Please restart the APP.</string>
+
+    <!-- usercenter -->
+
+    <string name="random_default_setting">Backtones play mode</string>
+    <string name="random_setting">Random</string>
+    <string name="default_setting">Default Setting</string>
+    <string name="set_usernikename">Set your name</string>
+    <string name="reverse_rbt">Reverse RBT</string>
+    <string name="password_change">Change password</string>
+    <string name="register_rbt">Are you sure to register reverse RBT? </string>
+    <string name="deregister_rbt">Are you sure to deregister reverse RBT？</string>
+    <string name="dialog_title">Prompt Information</string>
+    <string name="activate_caller_CRBT">Activate&#160;&#160;Caller&#160;&#160;CRBT</string>
+    <string name="activate_called_CRBT">Activate&#160;&#160;Called&#160;&#160;CRBT</string>
+    <string name="unsubscribe_cakker_CRBT">Unsubscribe&#160;&#160;caller&#160;&#160;CRBT</string>
+    <string name="unsubscribe_cakked_CRBT">Unsubscribe&#160;&#160;called&#160;&#160;CRBT</string>
+    <string name="log_out">Log&#160;&#160;out</string>
+    <string name="log_off">Log&#160;&#160;off</string>
+    <string name="enter_the_old_password">Enter&#160;the&#160;old&#160;password</string>
+    <string name="enter_nikename">Name</string>
+    <string name="enter_the_new_password">Enter&#160;the&#160;new&#160;password</string>
+    <string name="enter_the_password_again">Enter&#160;the&#160;password&#160;again</string>
+    <string name="language">&#160;&#160;Language</string>
+    <string name="about_us">&#160;&#160;About&#160;&#160;Us</string>
+    <string name="help">&#160;&#160;Help</string>
+    <string name="feeback">&#160;&#160;Feedback</string>
+    <string name="english">English</string>
+    <string name="help_content">1)What is M Ring?  \n  Are you tired of listening to dull rings when you call? Do you want to play pleasing music or a song when your friends call you? Do you want to whisper a song to your sweetheart? M Ring can make your dreams come true! By subscribing to M Ring, you can give your friends and customers a surprise! Join the cool M Ring world NOW! \n \n 2)How do I subscribe? \n To subscribe to M Ring service, press \&#039;Activate\&#039; button from login page or purchase any ringtones system will register called M Ring servce for you automatically. \n \n 3)Can I use it?   \n Yes, If you are a M Ring subscriber and you have a sufficient balance in your account.   \n \n 4)Library   \n You can create your own personal M Ring library. From this library you can choose any ringtones that suits your mood, then set as default.   \n \n 5)How do I purchase the ringtones?   \n You can browse through the APP ringtone rank list or scan the QR code and purchase as many ringtones as you want. \n \n 6)What if I forget to set a Dial Tune?   \n It doesn\&#039;t matter. The system has set a default ringtone for you. If you forget to set your default ringtone for incoming calls the system will apply the default ringtone for you.   \n \n 7)How much does it cost?   \n Subscription to M Ring service&#058; &#036;0.5 \n Servcie renewal fee&#058; &#036;0.5 per calendar month \n Ringtone download charges&#058; Depends on the tariff of each ringtone. \n Ringtone renewal fee&#058; same as the download charges. Charge cycle is every 30 days.</string>
+    <string name="feedback_title">Please&#160;&#160;enter&#160;&#160;the&#160;&#160;phone&#160;&#160;number/email</string>
+    <string name="feedback_content">Your&#160;&#160;Suggestion...</string>
+    <string name="submit">Submit</string>
+    <string name="next_time">Next&#160;&#160;time</string>
+    <string name="update_now">Update&#160;&#160;now</string>
+    <string name="share_the_QR_code_to_friends">Share&#160;&#160;the&#160;&#160;QR&#160;&#160;code&#160;&#160;to&#160;&#160;friends</string>
+    <string name="zte_application_access_time">Copyright&#169;2014&#8211;2019ZTE&#160;&#160;All&#160;&#160;Right&#160;&#160;Reserved</string>
+    <string name="update_version">Version update</string>
+    <string name="version_number">Version&#160;&#160;Number:</string>
+    <string name="determine">Determine</string>
+    <string name="cancel">Cancel</string>
+    <string name="user_cancellation">Prompt Information</string>
+    <string name="do_you_confirm_to_cancle_the_RBT_service">Do&#160;&#160;you&#160;&#160;confirm&#160;&#160;to&#160;&#160;cancel&#160;&#160;the&#160;&#160;RBT&#160;&#160;service?</string>
+    <string name="do_you_confirm_to_cancle_called_RBT_service">Do&#160;&#160;you&#160;&#160;confirm&#160;&#160;to&#160;&#160;cancel&#160;&#160;called&#160;&#160;RBT&#160;&#160;service?</string>
+    <string name="do_you_confirm_to_cancle_caller_RBT_service">Do&#160;&#160;you&#160;&#160;confirm&#160;&#160;to&#160;&#160;cancel&#160;&#160;caller&#160;&#160;RBT&#160;&#160;service?</string>
+    <string name="exit_the_current_user">Exit the current user?</string>
+    <string name="password">password</string>
+    <string name="the_new_version_is_detected">NEW VERSION AVAILABLE</string>
+    <string name="new_features">New&#160;&#160;features:</string>
+    <string name="more">More</string>
+    <string name="register_name_digits">._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ@</string>
+    <string name="bundling_name_digits">0123456789-</string>
+    <string name="user_center">User&#160;&#160;Center</string>
+    <string name="confirm_change">Confirm to change</string>
+    <string name="btn_comfirm">Confirm</string>
+    <string name="reset_password">Reset&#160;Password</string>
+    <string name="the_update_to_the_latest_version">Update to the latest version</string>
+    <string name="do_you_confirm_to_deactive_called_RBT_service">Do you confirm to deactive called RBT service?</string>
+    <string name="do_you_confirm_to_deactive_caller_RBT_service">Do you confirm to deactive caller RBT service?</string>
+    <string name="phone_number_or_email_address_can_not_be_empty">Phone number or email address can not be empty</string>
+    <string name="the_content_can_not_be_empty">The content can not be empty</string>
+    <string name="Calling_ring_tone_and_was_called_ring_tone_has_been_cancelled">Calling ring tone, and was called ring tone has been cancelled</string>
+    <!-- password change -->
+    <string name="the_old_password_can_not_be_empty">The old password can not be empty</string>
+    <string name="the_new_password_can_not_be_empty">The new password can not be empty</string>
+    <string name="the_confirmed_password_can_not_be_empty">The confirmed password can not be empty</string>
+    <string name="the_new_password_and_old_password_must_not_be_consistent">The new password and old password can\&#039;t be consistent</string>
+    <string name="the_confirmend_password_and_the_new_password_must_be_consistent">The confirmed password and the new password must be consistent</string>
+    <string name="the_old_password_should_be_no_less_than_6_numbers">The old password should be no less than 6 digits</string>
+    <string name="the_new_password_should_be_no_less_than_6_numbers">The new password should be no less than 6 digits</string>
+    <string name="the_confirmed_password_should_be_no_less_than_6_numbers">The confirmed password should be no less than 6 digits</string>
+    <string name="password_can_not_be_empty">Password can not be empty</string>
+    <string name="password_can_not_be_less_than_6_numbers">Password can not be less than 6 digits</string>
+    <string name="spain">Spain</string>
+    <string name="flicking">Flicking</string>
+    <string name="songs_list">Songs list</string>
+    <string name="ranking_list">Ranking list</string>
+    <string name="empty_play_url_1">Vacia reproducir URL</string>
+    <!-- humingzhuo -->
+
+
+    <!-- login -->
+    <string name="hint_login_name">Phone Number</string>
+    <string name="hint_login_pwd">Password</string>
+    <string name="login_remember">Remember me</string>
+    <string name="login_auto_login">Auto login</string>
+    <string name="login_txt">Log in</string>
+    <string name="regist_txt">Register</string>
+    <string name="login_title_txt">Login</string>
+    <string name="login_not_active">Activate your service first, then to login.</string>
+    <string name="login_suspended">You have been suspended. Please top up first!</string>
+    <string name="message_notice">We will send the message to you.</string>
+    <string name="regist_bt">Register</string>
+    <!-- me -->
+    <string name="me_title_txt">Me</string>
+    <string name="caller_txt">Caller CRBT</string>
+    <string name="called_txt">Called CRBT</string>
+    <string name="called_txt_1">Called CRBT</string>
+    <string name="tone_library_txt">My ring library</string>
+    <string name="list_enmpty1">You don’t have rings in your library.</string>
+    <string name="me_pop_delete">Delete</string>
+    <string name="me_pop_set_caller">Set the caller default Tone</string>
+    <string name="me_pop_set_called">Set the called default Tone</string>
+    <string name="me_pop_set_caller_group">Set the caller default Tone Group</string>
+    <string name="me_pop_set_called_group">Set the called default Tone Group</string>
+    <string name="me_pop_details">Ringtone for details</string>
+    <string name="me_pop_delete_caller">Delete the caller default Tone</string>
+    <string name="me_pop_delete_called">Delete the called default Tone</string>
+    <string name="me_pop_photographic">Photographic</string>
+    <string name="me_pop_choicephoto">Choose from the gallery</string>
+    <string name="input_null">Content can not be empty</string>
+    <string name="send_success">Feedback success</string>
+
+    <string-array name="select_header">
+        <item>Photographic</item>
+        <item>Choose from the gallery</item>
+    </string-array>
+    <string-array name="my_ring_setitem">
+        <item>My ring library</item>
+        <item>Ring group</item>
+        <item>Caller number group</item>
+        <item>Operating records</item>
+    </string-array>
+
+    <string-array name="pop_caller_crbt_strArry">
+
+        <!-- 删掉Delete 而修改此处，其他没有修改 <item>Delete</item> -->
+        <item>Delete the caller default Tone</item>
+        <item>Set the called default Tone</item>
+        <!-- <item>Ringtone details</item> -->
+    </string-array>
+
+    <!-- Tone Group蒙版页面弹出的 -->
+    <string-array name="pop_caller_group_crbt_strArry">
+
+        <!-- 删掉Delete 而修改此处，其他没有修改 <item>Delete</item> -->
+        <item>Set the caller default Tone Group</item>
+        <item>Set the called default Tone Group</item>
+        <!-- <item>Ringtone details</item> -->
+    </string-array>
+    <!-- 主叫铃音 组设  置 -->
+    <string name="pop_caller_group_crbt_setcalled">Set the called default Tone Group</string>
+    <string name="pop_caller_group_crbt_deletecaller">Delete the caller default tone Group</string>
+
+    <string-array name="pop_caller_groupset_crbt_strArry">
+
+        <!-- 删掉Delete 而修改此处，其他没有修改 <item>Delete</item> -->
+        <item>Set the called default Tone Group</item>
+        <item>Delete the caller default tone Group</item>
+        <!-- <item>Ringtone details</item> -->
+    </string-array>
+
+    <!-- 被叫铃音设置 -->
+    <string-array name="pop_called_crbt_strArry">
+
+        <!-- <item>Delete</item> -->
+        <item>Delete the called default Tone</item>
+        <item>Set the caller default Tone</item>
+        <!-- <item>Ringtone details</item> -->
+    </string-array>
+
+    <!-- 被叫铃音 组  设置 -->
+    <string name="pop_called_group_crbt_setcalled">Set the caller default Tone Group</string>
+    <string name="pop_called_group_crbt_deletecaller">Delete the called default Tone Group</string>
+
+    <string-array name="pop_called_groupset_crbt_strArry">
+        <!-- 删掉Delete 而修改此处，其他没有修改 <item>Delete</item> -->
+        <item>Set the caller default Tone Group</item>
+        <item>Delete the called default Tone Group</item>
+        <!-- <item>Ringtone details</item> -->
+    </string-array>
+    <string-array name="pop_caller_nocalled_crbt_strArry">
+        <item>Delete</item>
+        <item>Delete the caller default Tone</item><!-- 删除主叫 -->
+        <item>Ringtone details</item>
+    </string-array>
+    <string-array name="pop_called_nocaller_crbt_strArry">
+        <item>Delete</item>
+        <item>Delete the called default Tone</item><!-- 删除被叫d -->
+        <item>Ringtone details</item>
+    </string-array>
+    <string-array name="pop_listitem_strArry">
+        <item>Delete</item>
+        <item>Set the caller default Tone</item>
+        <item>Set the called default Tone</item>
+    </string-array>
+    <string-array name="pop_listitem_nocaller_strArry">
+        <item>Delete</item>
+        <item>Set the called default Tone</item>
+        <item>Ringtone details</item>
+    </string-array>
+    <string-array name="pop_listitem_nocalled_strArry">
+        <item>Delete</item>
+        <item>Set the caller default Tone</item>
+        <item>Ringtone details</item>
+    </string-array>
+
+    <!-- regist -->
+    <string name="regist_title">Registered</string>
+    <string name="regist">RBT Registration</string>
+    <string name="title_activity_regist">RegistActivity</string>
+    <string name="regist_phone_num_hint">Entel Mobile Number</string>
+    <string name="regist_vercode_hint">Verification Code</string>
+    <string name="regist_vercode_txt_btn">Get verfication code</string>
+    <string name="regist_vercode_txt_btnone">Get back after</string>
+    <string name="regist_vercode_txt_btntwo">  seconds</string>
+    <string name="regist_success_txt">Dear Custorm.\nYour application for registering RBT service has been accepted.We will inform you the result via SMS notification.</string>
+    <!-- Search -->
+    <string name="search">Search</string>
+    <string name="search_record">Search Records</string>
+    <string name="search_record_clear">Clear Historys</string>
+    <string name="title_activity_order_login">OrderLoginActivity</string>
+
+    <!-- orderlogin -->
+    <string name="orderlogin_buy_txt">Buy</string>
+    <string name="orderlogin_title">Purchase</string>
+    <string name="giftlogin_title">Gift</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="search_hint">Song name or artist </string>
+    <string name="scanning_result">Scan Result:</string>
+    <string name="scanning_area">QR code scanning</string>
+    <string name="empty_play_url">Get ringtone playing address error.</string>
+    <string name="back_app">Press again to exit the application .</string>
+    <string name="searcb_no_datas">No result.</string>
+    <string name="format_error">Error QR code.</string>
+    <string name="string_format">Illegal symbols included. Please re-enter</string>
+
+    <!-- pending -->
+    <string name="order_pending">You have a pending request. Send YES to accept or send NO to reject.</string>
+    <string name="order_no_pending">You requested the subscription to Backtone ENTEL service for the song \"%1$s\" of \"%2$s\". The price is %3$s. Push CONFIRMAR to receive confirmation SMS</string>
+    <string name="error_order_pending">You cannot purchase backtones in this moment</string>
+
+    <!-- return code -->
+    <string name="returncode_000000">Success</string>
+    <string name="returncode_000001">Provisioning is in processing</string>
+    <string name="returncode_000002">System is in processing for subscription request</string>
+    <string name="returncode_000003">System is in processing for unsubscription request</string>
+    <string name="returncode_000004">DB operation error occurred</string>
+    <string name="returncode_100002">System Busy</string>
+    <string name="returncode_100005">DB excute abnormal</string>
+    <string name="returncode_100006">System DB excute failed.</string>
+    <string name="returncode_200001">The Mandatory parameter is NULL</string>
+    <string name="returncode_200002">Parameter format is not correct</string>
+    <string name="returncode_200006">Wrong Device ID</string>
+    <string name="returncode_200007">The operation serial number is not in consistent.</string>
+    <string name="returncode_200008">The operation password is wrong. </string>
+    <string name="returncode_201002">Password is not valid</string>
+    <string name="returncode_301001">User not exsit</string>
+    <string name="returncode_301002">User already exsit.</string>
+    <string name="returncode_301003">Password is not correct</string>
+    <string name="returncode_301005">Password authentication failed.</string>
+    <string name="returncode_301009">User status error, could not register </string>
+    <string name="returncode_301010">User status is not correct, could not unsubscribe.</string>
+    <string name="returncode_301012">The authentication code is not created.</string>
+    <string name="returncode_309001">System capacity is exceeded</string>
+    <string name="returncode_309002">Authentication code is needed.</string>
+    <string name="returncode_309003">Counld not find provisioning scheme, please check the configuration for provisioning.</string>
+    <string name="returncode_309005">Not set access type</string>
+    <string name="returncode_309006">Daily subscription amount limitation reached</string>
+    <string name="returncode_309007">Provisioning failed</string>
+    <string name="returncode_312004">User account has no operation right.</string>
+    <string name="returncode_400001">Parameter input error</string>
+    <string name="returncode_400002">Unkown system error</string>
+    <string name="returncode_400004">No Content matched</string>
+    <string name="returncode_400005">No music from the artist</string>
+    <string name="returncode_400006">Wrong Content TypeCode</string>
+    <string name="returncode_400007">No Content in the period</string>
+    <string name="returncode_400008">oplist is NULL</string>
+    <string name="returncode_400009">FTP get failed</string>
+    <string name="returncode_400010">Content file exceeds the size limitation</string>
+    <string name="returncode_400011">Content file format is not correct</string>
+    <string name="returncode_400012">No Music box/album matched</string>
+    <string name="returncode_400013">Music box/album code not exist</string>
+    <string name="returncode_400014">No music box/album in the period</string>
+    <string name="returncode_400015">Content already exists</string>
+    <string name="returncode_400016">Content not exist</string>
+    <string name="returncode_400017">Content Code  not exist</string>
+    <string name="returncode_400018">The receiptor is not BGM/CRBT service subscriber</string>
+    <string name="returncode_400019">Content Group Code  not exist</string>
+    <string name="returncode_400020">Content assignment not exist</string>
+    <string name="returncode_400021">Content in Content Group not exist</string>
+    <string name="returncode_400022">Caller Group not exist</string>
+    <string name="returncode_400023">Caller number not exist in the Group</string>
+    <string name="returncode_400024">Caller number already in other Group</string>
+    <string name="returncode_400025">Caller User Group Name already exist</string>
+    <string name="returncode_400026">Content in Content Group already exists</string>
+    <string name="returncode_400027">Fail to charge, user account has not enough money</string>
+    <string name="returncode_400028">You are already the RBT subscriber.</string>
+    <string name="returncode_400029">Fail to charge, the user is post-paid user so that cannot be charged.</string>
+    <string name="returncode_400030">Fail to charge, any other cause</string>
+    <string name="returncode_400031">The ringtone subscriber is trying to add already exists in his/her personal library.</string>
+    <string name="returncode_400032">The personal library has reached the max number so that subscriber cannot add any more ringtone.</string>
+    <string name="returncode_400033">Content assignment has reached the max number so cannot add any more.</string>
+    <string name="returncode_400034">The value of time or date in this content assignment is in conflict with another content assignment.</string>
+    <string name="returncode_400035">Not all items (parameters) of content assignment are filled up. (mean lack of needful items)</string>
+    <string name="returncode_400036">Exclusion user number not exist</string>
+    <string name="returncode_400037">Exclusion user number already exist</string>
+    <string name="returncode_400038">The number of exclusion list has reached the maximum value.</string>
+    <string name="returncode_400039">There is no track in user’s library so cannot set to play random.</string>
+    <string name="returncode_400040">SP ID not exist</string>
+    <string name="returncode_400041">music box/album code has already existed</string>
+    <string name="returncode_400042">The category has not created yet.</string>
+    <string name="returncode_400043">Genre has already existed.</string>
+    <string name="returncode_400044">Genre has not existed.</string>
+    <string name="returncode_400045">You are already the RBT subscriber.</string>
+    <string name="returncode_400046">System data lost</string>
+    <string name="returncode_400047">User did not purchase this ringtone</string>
+    <string name="returncode_400048">The date or the name has been already set</string>
+    <string name="returncode_400049">telephone number not exists</string>
+    <string name="returncode_400050">The service area does not exist.</string>
+    <string name="returncode_400051">Already reached the maximum no of subscribers to the particular service area.</string>
+    <string name="returncode_400052">Not a valid prefix as because Service Area no is not valid.</string>
+    <string name="returncode_400053">The prefix for this user number not exist.</string>
+    <string name="returncode_400054">You are a blacklisted User, can not open account.</string>
+    <string name="returncode_400055">The Group service user is already open an account.</string>
+    <string name="returncode_400056">Allocated allindex is not correct.</string>
+    <string name="returncode_400057">The receiver number not allows to open account.</string>
+    <string name="returncode_400058">Not allow to open account in this time period</string>
+    <string name="returncode_400059">Called crbt subservice value not correct</string>
+    <string name="returncode_400060">The user account is locked.</string>
+    <string name="returncode_400061">The user is Group user, can not cancel account for Called user.</string>
+    <string name="returncode_400062">Called service is already canceled account.</string>
+    <string name="returncode_400063">Group service user is already cancelled an account.</string>
+    <string name="returncode_400065">The ring ID length is not proper.</string>
+    <string name="returncode_400066">Called CRBT operation failed.</string>
+    <string name="returncode_400067">No of Calling number group reached it\&#039;s maximum.</string>
+    <string name="returncode_400068">The new user number already opened an account.</string>
+    <string name="returncode_400069">The inputted GT value has some problem.</string>
+    <string name="returncode_400070">The IN user must input service key.</string>
+    <string name="returncode_400071">Can not change common user to system user.</string>
+    <string name="returncode_400072">The new Number prefix not exist.</string>
+    <string name="returncode_400073">The user type value is not correct.</string>
+    <string name="returncode_400074">The user has already purchased this bundle.</string>
+    <string name="returncode_400075">The user type or sub service does not exist.</string>
+    <string name="returncode_400076">The Content which you are trying to purchase is group content, only the group user can purchase the group content.</string>
+    <string name="returncode_400077">No rings under the music album, so can not purchase.</string>
+    <string name="returncode_400078">Bundle is still in auditing, so can not do any operation.</string>
+    <string name="returncode_400080">Bundle not exists.</string>
+    <string name="returncode_400081">The period of validity of Content can not less than current date.</string>
+    <string name="returncode_400082">Reached the maximum no of times to do the operation.</string>
+    <string name="returncode_400083">SP does not exist.</string>
+    <string name="returncode_400084">The number of content group has reached its maximum</string>
+    <string name="returncode_400085">The inputted parameters not correct.</string>
+    <string name="returncode_400086">The calling group what you selected is not exist for the particular user.</string>
+    <string name="returncode_400087">This is the last content for the user, so cannot be delete.</string>
+    <string name="returncode_400089">The category is not a leaf node, so cannot have any content under non leaf node.</string>
+    <string name="returncode_400090">The content or bundle not exists in user library.</string>
+    <string name="returncode_400091">The group content not allowed to present.	</string>
+    <string name="returncode_400092">The DIY content does not allow to present.</string>
+    <string name="returncode_400093">This kind of special user not allowed to present ringtones to others.</string>
+    <string name="returncode_400094">Already reached the maximum fee for content gifting in this month.</string>
+    <string name="returncode_400095">No Content exists in the Gifted party user\&#039;s library.</string>
+    <string name="returncode_400096">Content Gift Reciver is non CRBT user.</string>
+    <string name="returncode_400097">The content is already available in Gifted party library.</string>
+    <string name="returncode_400098">Cannot replace DIY ring or gifted ring.</string>
+    <string name="returncode_400099">The number you present not exist or it has no this service.</string>
+    <string name="returncode_400100">MRB Operation Failed.</string>
+    <string name="returncode_400101">The SP does not have content prefix.</string>
+    <string name="returncode_400102">The date or time segment not exists.</string>
+    <string name="returncode_400103">Old and new content/Bundle Id is same.</string>
+    <string name="returncode_400104">The group ring group already exists.</string>
+    <string name="returncode_400105">Sorry, you have already replaced a tune this month.</string>
+    <string name="returncode_400106">Old Content Id not exists.</string>
+    <string name="returncode_400107">Old bundle Id not exist.</string>
+    <string name="returncode_400108">SP\&#039;s FTP operation failed.</string>
+    <string name="returncode_400109">The number of calling numbers in the calling number group has reached its maximum.</string>
+    <string name="returncode_400110">This user number already applied the song.</string>
+    <string name="returncode_400111">The particular song demand not available for the particular user, so can not delete.</string>
+    <string name="returncode_400112">The opcode value is wrong</string>
+    <string name="returncode_400113">Old and new content/Bundle Id is same.</string>
+    <string name="returncode_400114">The group ring group already exists.</string>
+    <string name="returncode_400115">Sorry, you have already replaced a tune this month.</string>
+    <string name="returncode_400116">Old Content Id not exists.</string>
+    <string name="returncode_400117">Old bundle Id not exist.</string>
+    <string name="returncode_400118">SP\&#039;s FTP operation failed.</string>
+    <string name="returncode_400119">The number of calling numbers in the calling number group has reached its maximum.</string>
+    <string name="returncode_400120">No main scp can not distribute index</string>
+    <string name="returncode_400121">Exceeded the maximum capacity of content.</string>
+    <string name="returncode_400122">Not the valid category or the category is not the leaf node.</string>
+    <string name="returncode_400123">The group has been blocked.</string>
+    <string name="returncode_400124">Not able to find the proper sequence for content prefix.</string>
+    <string name="returncode_400125">Assign MSGID failed.</string>
+    <string name="returncode_400126">The number of Group ringtones has reached its maximum.</string>
+    <string name="returncode_400127">The no of content for that particular sp reached its maximum.</string>
+    <string name="returncode_400128">In this time segment can not delete the content or bundle.</string>
+    <string name="returncode_400129">The Bundle name can not be empty.</string>
+    <string name="returncode_400130">Exceeding the price upper limit of the Bundle.</string>
+    <string name="returncode_400131">Exceeding the price upper limit of the music album.</string>
+    <string name="returncode_400134">Under the least no of content for the Bundle. </string>
+    <string name="returncode_400135">Under the least no of content for the music album.</string>
+    <string name="returncode_400136">Exceeding the maximum no of content of the bundle/music album.</string>
+    <string name="returncode_400137">The content has already existed in that bundle/music album.</string>
+    <string name="returncode_400138">The content not exists in that bundle/music album.</string>
+    <string name="returncode_400141">The new content and the bundle/music album does not belong to the same sp.</string>
+    <string name="returncode_400142">The sequence number already exists.</string>
+    <string name="returncode_400143">This Promotion has already existed.</string>
+    <string name="returncode_400145">The category is not a leaf node.</string>
+    <string name="returncode_400146">There are contents under the category, so can not delete it.</string>
+    <string name="returncode_400147">The category name should not repeat in one category and its sub level.</string>
+    <string name="returncode_400148">The parent node does not exist.</string>
+    <string name="returncode_400149">The max content number of particular category exceeding the maximum limit.</string>
+    <string name="returncode_400151">The current level is exceeding the system maximum level.</string>
+    <string name="returncode_400152">The max content number of the category what you modified is less than the current content number of the particular category.</string>
+    <string name="returncode_400153">You can not add the sub category as because some contents available under the parent category.</string>
+    <string name="returncode_400154">Spid error.</string>
+    <string name="returncode_400155">Spindex error.</string>
+    <string name="returncode_400156">IsCheck error</string>
+    <string name="returncode_400157">SpName error</string>
+    <string name="returncode_400158">MaxNum error.</string>
+    <string name="returncode_400159">CorpAddr error.</string>
+    <string name="returncode_400160">ContactName error.</string>
+    <string name="returncode_400161">PhoneNumber error</string>
+    <string name="returncode_400162">SellDeduct error</string>
+    <string name="returncode_400163">SpUrl error.</string>
+    <string name="returncode_400164">FaxNumber error.</string>
+    <string name="returncode_400165">Sp index already Exists.</string>
+    <string name="returncode_400166">The SP ID already exists.</string>
+    <string name="returncode_400167">The SP name already exists.</string>
+    <string name="returncode_400168">The SP ID length mistake.</string>
+    <string name="returncode_400169">The ringtone prefix already configured for the particular SP. So Can not delete.</string>
+    <string name="returncode_400170">The pageNo value exceeding the total No of pages.</string>
+    <string name="returncode_400171">The content not existed in the FTP</string>
+    <string name="returncode_400172">the length of tone name is exceeded</string>
+    <string name="returncode_400173">the length of singer name is exceeded</string>
+    <string name="returncode_600001">User is already activated</string>
+    <string name="returncode_600002">User is already deactivated</string>
+    <string name="returncode_600003">The user was already forcely de-active, cannot activate or de-active again</string>
+    <string name="returncode_100056">Network error. Please check and retry later!</string>
+    <!-- new need -->
+    <string name="home">Home</string>
+    <string name="me">Me</string>
+    <!--
+    <string name="list">List</string>
+    <string name="more">More</string>
+
+    -->
+    <string name="nikename_logion_number">Login number</string>
+    <string name="title_activity_seting_random_default">SetingRandomDefaultActivity</string>
+
+    <string name="permission_open_relevant">Please open the relevant permissions</string>
+    <string name="permission_open_alter_window">Please open the permissions of the suspension window</string>
+    <string name="ok">OK</string>
+    <string name="no">Cancle</string>
+
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/me_pop_bg"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/tonelist_popwindow_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/line_color"
+        android:dividerHeight="0.2dp" >
+    </ListView>
+
+</LinearLayout>

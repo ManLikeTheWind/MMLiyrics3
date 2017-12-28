@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.zte.myring.views.gallery.MyHorizontalScrollView
+        android:id="@+id/id_horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@color/bgscroll"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/id_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </com.zte.myring.views.gallery.MyHorizontalScrollView>
+
+    <com.zte.myring.views.refresh.PullToRefreshListView
+        android:id="@+id/list_pull_refresh_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@null"
+        android:divider="@color/deliverline"
+        android:dividerHeight="0.2dp"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true" >
+    </com.zte.myring.views.refresh.PullToRefreshListView>
+
+</LinearLayout>

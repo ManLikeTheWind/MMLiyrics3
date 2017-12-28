@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_layout" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:background="@mipmap/ringimg1" >
+
+        <TextView
+            android:id="@+id/orderlogin_songname_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/orderlogin_songername_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:text="When you say nothing at all"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/orderlogin_songername_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Jack Chen"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/orderlogin_btn"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/orderlogin_songername_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/orderlogin_seletor"
+            android:text="@string/login_txt"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:hint="@string/regist_phone_num_hint"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp" >
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:hint="@string/regist_vercode_hint"
+            android:maxWidth="200dp"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/orderlogin_vercode_btn"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/getcodebtn_on"
+            android:lines="2"
+            android:text="@string/regist_vercode_txt_btn"
+            android:textColor="@color/regist_vercod_light"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/orderlogin_buy_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/order_details_bkg_seletor"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/orderlogin_buy_txt"
+        android:textSize="20sp" />
+
+</LinearLayout>

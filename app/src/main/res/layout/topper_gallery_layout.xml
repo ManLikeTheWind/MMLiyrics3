@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="-10dp"
+    android:layout_marginRight="-10dp"
+    android:layout_marginBottom="-40dp"
+    android:clipChildren="false"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <com.zte.myring.views.gallery.GalleryEx
+            android:id="@+id/gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:persistentDrawingCache="animation" />
+        
+        <LinearLayout 
+            android:id="@+id/guide_activity_newvod_point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom|center"
+            android:gravity="center"/>
+     
+    </FrameLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginRight="-10dp"
+        android:layout_marginBottom="5dp">
+        
+        <LinearLayout 
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="2px"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="#6a5b74"/>
+        
+         <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/songs_list"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/zxing_textcolor"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+         
+           <LinearLayout 
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:layout_height="2px"
+            android:orientation="horizontal"
+            android:background="#6a5b74"/>
+        
+    </LinearLayout>
+
+   
+    
+</LinearLayout>

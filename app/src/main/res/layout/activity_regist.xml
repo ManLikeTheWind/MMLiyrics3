@@ -1,0 +1,164 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/regist_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/item_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/top"
+            layout="@layout/header_logo_layout" />
+
+        <include
+            android:id="@+id/regist_title"
+            layout="@layout/title_layout" />
+
+        <!--
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center" >
+
+        <CheckBox
+            android:id="@+id/regist_caller_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/crbt_seletor"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/caller_txt"
+            android:textColor="@drawable/regist_cb_txt_seletor"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/regist_called_iv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/crbt_seletor"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/called_txt_1"
+            android:textColor="@drawable/regist_cb_txt_seletor"
+            android:textSize="14sp" />
+    </LinearLayout>
+     android:drawableRight="@drawable/register_phone"        -->
+
+        <LinearLayout
+            android:id="@+id/rl2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/regist_phone_num_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dip"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/feedback_edit_bg"
+                android:digits="@string/register_name_digits"
+                android:ems="10"
+                android:hint="@string/regist_phone_num_hint"
+                android:paddingBottom="13dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="13dp"
+                android:singleLine="true"
+                android:textColor="@color/text_color_black"
+                android:textColorHint="@color/input_text"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/regist_vercode_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/determine_selector_xml"
+                android:lines="2"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/regist_vercode_txt_btn"
+                android:textColor="@color/regist_vercod_light"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/regist_vercode_et"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/regist_vercode_btn"
+                android:background="@drawable/feedback_edit_bg"
+                android:digits="@string/register_name_digits"
+                android:ems="10"
+                android:hint="@string/regist_vercode_hint"
+                android:paddingBottom="13dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="13dp"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textColor="@color/text_color_black"
+                android:textColorHint="@color/input_text"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/regist_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/feedback_submit_xml"
+            android:text="@string/regist_txt"
+            android:textColor="@color/submit"
+            android:textSize="16sp" />
+
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboard_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="@dimen/reg_keyboard_height"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

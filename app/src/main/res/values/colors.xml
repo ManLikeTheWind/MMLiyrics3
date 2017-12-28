@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bgscroll">#e3f0f6</color>
+    <color name="color_pressed">#9c000000</color>
+    <color name="ripple_color">#ffeeeeee</color>
+    <color name="colordetailline">#b0c4cb</color>
+    <color name="operationselect">#21b8e5</color>
+    <color name="caller_ring_text">#9b9b9d</color>
+    <color name="dialog_top_text">#0094cf</color>
+    <color name="dialog_line_color">#86a4af</color>
+    <color name="dialog_sure_bg">#006e9f</color>
+    <color name="item_bg">#ecf7fb</color>
+    <color name="line_color">#deebf2</color>
+    <color name="text_color_black">#1d1e20</color>
+    <color name="deliverline">#d7e0e6</color>
+    <color name="mycenter_text">#00528a</color>
+    <color name="gray_press">#c2c0c0</color>
+    <!-- order -->
+    <color name="order_dialog_title">#1C86EE</color>
+    <color name="order_dialog_background">#FFFAF0</color>
+    <color name="order_dialog_title_str">#968da6</color>
+
+    <!-- details -->
+    <color name="details_bottom_black">#184d5b</color>
+    <color name="details_title">#005f87</color>
+    <color name="details_bottom_select">#008ed0</color>
+    <!-- <color name="blue">#0099ff</color> -->
+    <color name="blue">#0099CC</color>
+    <color name="button_blue">#1C86EE</color>
+    <color name="button_blue_select">#1874CD</color>
+    <color name="zxing_textcolor">#006fa5</color>
+    <color name="home_toppper_background_color">#251c3b</color>
+    <color name="home_toppper_input_text_color">#aeaeae</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="main_bgcolr">#e6e6e6</color>
+    <color name="main_colr">#f65d01</color>
+    <color name="org">#f65d01</color>
+    <color name="bule">#0095F9</color>
+    <color name="grey">#DBDBDB</color>
+    <color name="hoary">#666666</color>
+    <color name="pressed_color">#15c0c9</color>
+    <color name="font_color">#f65d01</color>
+    <color name="no_wifi_background">#BEBEBE</color>
+    <color name="login_hint">#c3eff2</color>
+    <color name="green">#15c0c9</color>
+    <color name="orange">#f65d01</color>
+    <color name="new_middle_color">#15c0c9</color>
+    <color name="new_orange">#f65d01</color>
+    <color name="new_gray">#a5aeb9</color>
+    <color name="new_press_buyscene">#dee5ef</color>
+    <color name="orange_shen">#a34208</color>
+    <color name="orange_hui">#fbb6bf</color>
+    <color name="new_green">#cafbdf</color>
+    <color name="new_press">#50f5fe</color>
+    <color name="help_text_color">#8b8b8b</color>
+    <color name="pull_backgroung_color">#F0EfF5</color>
+    <color name="common_exchange_color">#5dd3d9</color>
+    <color name="common_exchange_text_color">#526383</color>
+    <color name="button_selected_text_color">#9a9a9a</color>
+    <color name="tab_text_color">#504e4f</color>
+    <color name="businessname_color">#76839c</color>
+    <color name="businesscontent_color">#939393</color>
+    <color name="business_top_name">#ffe316</color>
+    <color name="business_recommend">#45587a</color>
+    <color name="business_recommend_content">#8b8b8b</color>
+    <color name="search_background">#3d344f</color>
+    <color name="input_text">#9d9d9d</color>
+    <color name="text_darker_color">#816983</color>
+    <color name="text_yellow_color">#EB7105</color>
+    <color name="list_tv_bkg">#423958</color>
+    <color name="list_tv_bkg_selected">#dcdae3</color>
+    <color name="list_tv_textcolor">#9086a7</color>
+    <color name="list_tv_textcolor2">#000000</color>
+    <!-- <color name="list_tv_textcolor_selected">#0099cc</color> -->
+    <color name="list_tv_textcolor_selected">#0099ff</color>
+    <color name="details_bottom_bkg">#43424A</color>
+    <color name="details_bottom_set">#c6c4d2</color>
+    <color name="purple">#49304F</color>
+    <color name="aboutus_grey">#494154</color>
+    <color name="feedback_submit">#A594A6</color>
+    <color name="unsubscribe_submit">#DDCBE1</color>
+    <color name="regist_cb_dark">#a396a1</color>
+    <color name="regist_vercod_light">#f6f3f5</color>
+    <color name="regist_vercod_dark">#ad9fab</color>
+    <color name="regist_btn">#dccadf</color>
+    <color name="line">#D4C6D5</color>
+    <color name="me_songer_txt">#b5b6ba</color>
+    <color name="me_pop_bg">#1E1D23</color>
+    <color name="me_phoneno_txt">#6f6f6f</color>
+    <color name="dialog_cancle">#362134</color>
+    <color name="dialog_content">#2f2f2f</color>
+    <color name="title_color">#DBDAE0</color>
+
+    <drawable name="regist_cb_dark">#1d1e20</drawable>
+    <drawable name="regist_cb_light">#ffffff</drawable>
+    <drawable name="regist_vercod_light">#f6f3f5</drawable>
+    <drawable name="regist_vercod_dark">#938190</drawable>
+
+    <color name="edittext_line">#D4C6D7</color>
+    <color name="tv_head">#ffffff</color>
+    <color name="tv_tail">#fab400</color>
+    <color name="singer_color">#a9c1c3</color>
+    <color name="singer_color2">#33968da6</color>
+    <color name="et_order_login">#6A536A</color>
+    <color name="list_item_pressed">#5F576C</color>
+    <color name="list_header_line">#826C83</color>
+    <color name="submit">#f9f7f8</color>
+    <!-- ZXing -->
+    <color name="viewfinder_frame">#ffffff</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+    <drawable name="tab_checked">#0193CF</drawable>
+    <drawable name="tab_unchecked">#005F87</drawable>
+
+    <color name="transparent">#00000000</color>
+</resources>

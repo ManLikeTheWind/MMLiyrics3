@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="foot_height">60dp</dimen>
+    <dimen name="login_head_one">120dp</dimen>
+    <dimen name="login_head_two">100dp</dimen>
+    <dimen name="login_head_three">80dp</dimen>
+
+</resources>

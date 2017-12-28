@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_item_bkg"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="15dp"
+    android:paddingTop="10dp" >
+
+    <LinearLayout
+    android:id="@+id/tonegroup_item_linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <FrameLayout
+        android:id="@+id/tonegroup_item_framelayout"
+        android:layout_width="45dp"
+        android:layout_height="45dp" >
+
+        <com.zte.myring.view.RoundedImageView
+            android:id="@+id/imagebg"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/icon_group"
+            app:riv_corner_radius="100dip"
+            app:riv_oval="false" />
+    </FrameLayout>
+    <!--黑色字体 歌曲名字-->
+    <TextView
+        android:id="@+id/tone_item_groupname_tv"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/tonegroup_item_framelayout"
+        android:singleLine="true"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/list_item_txt_size" />
+</LinearLayout>
+    <TextView
+        android:id="@+id/tone_item_grouparrow_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:drawableRight="@mipmap/rightarrow"/>
+    <!-- <FrameLayout
+        android:id="@+id/tonegroup_item_framelayout"
+        android:layout_width="45dp"
+        android:layout_height="45dp" >
+
+        <com.zte.myring.view.RoundedImageView
+            android:id="@+id/imagebg"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/icon_group"
+            app:riv_corner_radius="100dip"
+            app:riv_oval="false" />
+    </FrameLayout>
+    黑色字体 歌曲名字
+    <TextView
+        android:id="@+id/tone_item_groupname_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/tonegroup_item_framelayout"
+        android:singleLine="true"
+        android:text="@string/record2"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/list_item_txt_size" /> -->
+
+</RelativeLayout>

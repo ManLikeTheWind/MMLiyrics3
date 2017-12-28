@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_item_bkg"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="15dp"
+    android:paddingTop="10dp" >
+
+
+
+    <TextView
+        android:id="@+id/tone_item_groupname_tv"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/tonegroup_item_framelayout"
+        android:singleLine="true"
+        android:gravity="center"
+        android:text="@string/random_setting"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/list_item_txt_size" />
+
+</RelativeLayout>

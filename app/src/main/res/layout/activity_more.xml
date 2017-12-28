@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/item_bg"
+    android:orientation="vertical"
+    android:weightSum="9" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_language"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:drawableLeft="@mipmap/language"
+            android:drawableRight="@mipmap/more_rightarrow"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/language"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/setlin_fill" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_white_gray"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_aboutus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:drawableLeft="@mipmap/aboutus"
+            android:drawableRight="@mipmap/more_rightarrow"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/about_us"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/font_size_dialog_title" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/setlin_fill" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_white_gray"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_help"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:drawableLeft="@mipmap/help"
+            android:drawableRight="@mipmap/more_rightarrow"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/help"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/font_size_dialog_title" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/setlin_fill" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_white_gray"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:drawableLeft="@mipmap/feedback"
+            android:drawableRight="@mipmap/more_rightarrow"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/feeback"
+            android:textColor="@color/text_color_black"
+            android:textSize="@dimen/font_size_dialog_title" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/setlin_fill" />
+
+</LinearLayout>

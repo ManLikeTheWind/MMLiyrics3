@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/show_horizon_info"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:lines="1"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp"
+        android:singleLine="true"
+        android:text="hhh"
+        android:textColor="@color/list_textview_selector" />
+
+    <Button
+        android:id="@+id/horizon_bt"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/list_tv_textcolor_selected"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/straight"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/singer_color" />
+
+</LinearLayout>

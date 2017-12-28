@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/item_bg"
+    android:weightSum="9" >
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/header_logo_layout" />
+
+        <include layout="@layout/title_layout" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/setinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top" >
+
+        <!-- Set Ringtone -->
+        <TextView
+            android:id="@+id/number_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_white_gray"
+            android:gravity="center_vertical"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="@string/callernumber_ringgroup_setringtone"
+            android:textColor="@color/mycenter_text"
+            android:textSize="@dimen/font_size_dialog_title" />
+
+        <ImageView
+            android:id="@+id/showrightarrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/rightarrow" />
+
+        <TextView
+            android:id="@+id/setringtonename"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/showrightarrow"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/caller_ring_text"
+            android:textSize="@dimen/font_size" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/line"
+        style="@style/setlin_fill_me"
+        android:orientation="horizontal"
+        android:layout_below="@id/setinfo" />
+
+    <RelativeLayout
+        android:id="@+id/btn_add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#daebf2"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btn_addgroup"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/feedback_submit_xml"
+            android:scaleType="fitXY"
+            android:text="@string/callernumber_ringgroup_add_callernumber"
+            android:textColor="@color/submit"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/me_group_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_add"
+        android:layout_below="@id/line"
+        android:layout_marginTop="20dp"
+        android:cacheColorHint="@null"
+        android:divider="@color/deliverline"
+        android:dividerHeight="0.2dp"
+        android:footerDividersEnabled="false"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" >
+    </ListView>
+
+</RelativeLayout>

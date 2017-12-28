@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:orientation="vertical"
+    android:weightSum="9" >
+
+    <include layout="@layout/title_layout" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dip"
+        android:background="@color/grey" />
+
+    <EditText
+        android:id="@+id/et_phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:digits="@string/bundling_name_digits"
+        android:ems="10"
+        android:enabled="false"
+         android:inputType="numberSigned"
+        android:hint="@string/hint_login_name"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textColorHint="@color/input_text"
+        android:textSize="@dimen/font_size" >
+    </EditText>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dip"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/grey" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:digits="@string/register_name_digits"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="numberPassword"
+        android:maxLength="20"
+        android:singleLine="true"
+         android:textColor="@color/white"
+        android:textColorHint="@color/input_text"
+        android:textSize="@dimen/font_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dip"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/grey" />
+
+    <Button
+        android:id="@+id/btn_determine"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/submit_xml"
+        android:scaleType="fitXY"
+        android:text="@string/unsubscribe_cakker_CRBT"
+        android:textColor="@color/submit"
+        android:textSize="18sp" />
+
+</LinearLayout>
